@@ -2,5 +2,9 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>Elements/CustomChart.qml</file>
+        <file>UI/InfoHeader.qml</file>
+        <file>UI/InfoFooter.qml</file>
+        <file>UI/InfoMain.qml</file>
+        <file>Elements/Custom3dStudio.qml</file>
     </qresource>
 </RCC>
