@@ -11,7 +11,7 @@ Window
     height: 1024
 
     visible: true
-    title: qsTr("Hello World")
+    title: "Часовой моря"
 
     color: "#C4C4C4"
 
