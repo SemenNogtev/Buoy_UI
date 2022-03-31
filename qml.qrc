@@ -6,5 +6,6 @@
         <file>UI/InfoFooter.qml</file>
         <file>UI/InfoMain.qml</file>
         <file>Elements/Custom3dStudio.qml</file>
+        <file>Elements/InfoPanel.qml</file>
     </qresource>
 </RCC>
