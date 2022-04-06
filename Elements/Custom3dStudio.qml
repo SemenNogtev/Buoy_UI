@@ -8,14 +8,12 @@ Studio3D
 {
     id: studio3D
 
-    anchors.fill: parent
-
     property url presentation_path: presentation_path
 
     ViewerSettings
     {
 
-        scaleMode: ViewerSettings.ScaleModeFit
+        scaleMode: ViewerSettings.ScaleModeFill
     }
 
     Presentation

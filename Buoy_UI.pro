@@ -1,5 +1,5 @@
 QT += quick charts qml
-
+QT += studio3d
 CONFIG += c++11
 
 # You can make your code fail to compile if it uses deprecated APIs.
@@ -10,7 +10,8 @@ SOURCES += \
         main.cpp
 
 RESOURCES += qml.qrc \
-    icons.qrc
+    icons.qrc \
+    studio3d.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =

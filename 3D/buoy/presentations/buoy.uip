@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIP version="7" >
+	<Project >
+		<ProjectSettings author="" company="" presentationWidth="640" presentationHeight="640" maintainAspect="False" preferKtx="False" flipCompressedTextures="False" >
+			<CustomColors count="16" >#ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff</CustomColors>
+		</ProjectSettings>
+		<BufferData >
+			<ImageBuffer sourcepath="../maps/Water_Diffuse.png" hasTransparency="False" hasOpaquePixels="True" />
+		</BufferData>
+		<Graph >
+			<Scene id="Scene_u52747" backgroundcolor="0.454902 0.662745 0.796078 1" >
+				<Layer id="Layer_u214" variants="" >
+					<Camera id="Camera_u33795" />
+					<Light id="Light_u14551" />
+					<Group id="Group_u41452" variants="" >
+						<Group id="buoy_u62703" variants="" importid="__import__root__" >
+							<Group id="Group_buoy_u64198" variants="" name="Group_buoy" importid="Group_buoy" orientation="Right Handed" position="0 64.9782 0" rotation="-176.575 0.265689 175.569" rotationorder="XYZr" scale="1 1 1" >
+								<Model id="wqw_u63401" variants="" name="wqw" importid="wqw" orientation="Right Handed" position="-9.53674e-07 20.1496 -3.99361" rotation="-160.619 8.65142e-06 180" rotationorder="XYZr" scale="1 1 1" sourcepath="../models/buoy/meshes/wqw.mesh" >
+									<ReferencedMaterial id="жќђиґЁ.2_u61438" importfile="../models/buoy/buoy.import" importid="жќђиґЁ.2" />
+								</Model>
+								<Model id="qqw_u28600" variants="" name="qqw" importid="qqw" orientation="Right Handed" position="-4.76837e-07 20.1077 3.99314" rotation="19.3807 5.69339e-08 2.29389e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="../models/buoy/meshes/qqw.mesh" >
+									<ReferencedMaterial id="жќђиґЁ.2_u63617" importfile="../models/buoy/buoy.import" importid="жќђиґЁ.2_0001" />
+								</Model>
+								<Model id="q_u36092" variants="" name="q" importid="q" orientation="Right Handed" position="-1.66893e-06 42.3346 6.7234e-05" rotation="1.06722e-07 1.2424e-15 4.26887e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="../models/buoy/meshes/q.mesh" >
+									<ReferencedMaterial id="жќђиґЁ.2_u14707" importfile="../models/buoy/buoy.import" importid="жќђиґЁ.2_0002" />
+								</Model>
+								<Model id="ww_u2932" variants="" name="ww" importid="ww" orientation="Right Handed" position="-5.36442e-07 12.4663 6.7234e-05" rotation="1.06722e-07 1.2424e-15 4.26887e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="../models/buoy/meshes/ww.mesh" >
+									<ReferencedMaterial id="зєЇз™Ѕ_u49016" importfile="../models/buoy/buoy.import" importid="зєЇз™Ѕ" />
+								</Model>
+								<Model id="w_u9480" variants="" name="w" importid="w" orientation="Right Handed" position="-5.96046e-07 -2.91924 6.72638e-05" rotation="1.06722e-07 1.2424e-15 4.26887e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="../models/buoy/meshes/w.mesh" >
+									<ReferencedMaterial id="зєЇз™Ѕ_u16372" importfile="../models/buoy/buoy.import" importid="зєЇз™Ѕ_0001" />
+								</Model>
+								<Model id="qqq_u47503" variants="" name="qqq" importid="qqq" orientation="Right Handed" position="-6.51926e-07 -0.683308 6.72117e-05" rotation="1.06722e-07 1.2424e-15 4.26887e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="../models/buoy/meshes/qqq.mesh" >
+									<ReferencedMaterial id="зєЇз™Ѕ_u43182" importfile="../models/buoy/buoy.import" importid="зєЇз™Ѕ_0002" />
+								</Model>
+								<Model id="w.001_u18238" variants="" name="w.001" importid="w.001" orientation="Right Handed" position="-2.23517e-07 -2.37575 6.7547e-05" rotation="1.06722e-07 1.2424e-15 4.26887e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="../models/buoy/meshes/w.001.mesh" >
+									<ReferencedMaterial id="зєЇз™Ѕ_u52302" importfile="../models/buoy/buoy.import" importid="зєЇз™Ѕ_0003" />
+								</Model>
+								<Model id="qq_u3654" variants="" name="qq" importid="qq" orientation="Right Handed" position="0 -41.4424 6.77109e-05" rotation="1.06722e-07 1.2424e-15 4.26887e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="../models/buoy/meshes/qq.mesh" >
+									<ReferencedMaterial id="зєЇз™Ѕ_u11513" importfile="../models/buoy/buoy.import" importid="зєЇз™Ѕ_0004" />
+								</Model>
+								<Model id="q.001_u46551" variants="" name="q.001" importid="q.001" orientation="Right Handed" position="0 -47.6375 6.74725e-05" rotation="1.06722e-07 1.2424e-15 4.26887e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="../models/buoy/meshes/q.001.mesh" >
+									<ReferencedMaterial id="жќђиґЁ.2_u35385" importfile="../models/buoy/buoy.import" importid="жќђиґЁ.2_0003" />
+								</Model>
+							</Group>
+						</Group>
+						<Group id="water_u26113" variants="" importid="__import__root__" >
+							<Model id="Water Export_u49587" variants="" name="Water Export" importid="Water Export" orientation="Right Handed" position="0 0 0" rotation="-90 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/water/meshes/Water Export.mesh" >
+								<ReferencedMaterial id="Water_Oppacity_2_u32520" />
+							</Model>
+						</Group>
+						<Light id="Light2_u50819" />
+					</Group>
+				</Layer>
+				<Material id="__Container_u28502" >
+					<Material id="materials/Water_Oppacity_2_u34312" importfile="../maps/Water_Oppacity_2.png" >
+						<Image id="materials/Water_Oppacity_2_u34312_diffusemap_u10309" />
+						<Image id="materials/Water_Oppacity_2_u34312_diffusemap2_u18760" />
+					</Material>
+					<Material id="materials/жќђиґЁ.2_u35994" />
+					<Material id="materials/зєЇз™Ѕ_u25090" />
+				</Material>
+			</Scene>
+		</Graph>
+		<Logic >
+			<State name="Master Slide" component="#Scene_u52747" >
+				<Add ref="#Layer_u214" />
+				<Add ref="#Camera_u33795" position="0 52 -181" rotation="22 0 0" />
+				<Add ref="#Light_u14551" position="-19.662 0 0" />
+				<Add ref="#__Container_u28502" name="__Container" />
+				<Add ref="#materials/Water_Oppacity_2_u34312" name="materials/Water_Oppacity_2" diffusemap="#materials/Water_Oppacity_2_u34312_diffusemap_u10309" diffusemap2="#materials/Water_Oppacity_2_u34312_diffusemap2_u18760" importid="" />
+				<Add ref="#materials/Water_Oppacity_2_u34312_diffusemap_u10309" name="diffusemap" importid="" sourcepath="../maps/Water_Diffuse.png" subpresentation="" />
+				<Add ref="#materials/Water_Oppacity_2_u34312_diffusemap2_u18760" name="diffusemap2" importid="" sourcepath="../maps/Water_Diffuse.png" subpresentation="" />
+				<Add ref="#materials/жќђиґЁ.2_u35994" name="materials/жќђиґЁ.2" diffuse="1 0.843333 0.53 1" importfile="../models/buoy/buoy.import" importid="жќђиґЁ.2" specularroughness="724.077" />
+				<Add ref="#materials/зєЇз™Ѕ_u25090" name="materials/зєЇз™Ѕ" importfile="../models/buoy/buoy.import" importid="зєЇз™Ѕ" specularroughness="724.077" />
+				<State id="Scene-Slide1_u58247" name="Slide1" playmode="Looping" >
+					<Set ref="#Layer_u214" endtime="10066" />
+					<Set ref="#Camera_u33795" endtime="10066" />
+					<Set ref="#Light_u14551" endtime="10066" />
+					<Add ref="#Group_u41452" name="Group" endtime="10066" >
+						<AnimationTrack property="rotation.x" type="Linear" >0 0 10.066 0</AnimationTrack>
+						<AnimationTrack property="rotation.y" type="Linear" >0 0 10.066 360</AnimationTrack>
+						<AnimationTrack property="rotation.z" type="Linear" >0 0 10.066 0</AnimationTrack>
+					</Add>
+					<Add ref="#buoy_u62703" name="buoy" endtime="10066" importfile="../models/buoy/buoy.import" position="0 -71.126 -0.019" rotation="2 0 -4" sourcepath="../models/buoy/buoy.import" >
+						<AnimationTrack property="position.x" type="Linear" >0 0.000460986 1.433 0 3.016 0 5.416 0 7.866 0 9.032 0 10.066 0</AnimationTrack>
+						<AnimationTrack property="position.y" type="Linear" >0 -71.1259 1.433 -68.126 3.016 -70.126 5.416 -69.126 7.866 -67.126 9.032 -72.126 10.066 -71.126</AnimationTrack>
+						<AnimationTrack property="position.z" type="Linear" >0 -0.0188384 1.433 -0.019 3.016 -0.019 5.416 -0.019 7.866 -0.019 9.032 -0.019 10.066 -0.019</AnimationTrack>
+						<AnimationTrack property="rotation.x" type="Linear" >0 0 1.4 0 3.016 -6 5.383 -6 7.866 -13 9.032 2 10.066 2</AnimationTrack>
+						<AnimationTrack property="rotation.y" type="Linear" >0 0 1.4 0 3.016 0 5.383 0 7.866 0 9.032 0 10.066 0</AnimationTrack>
+						<AnimationTrack property="rotation.z" type="Linear" >0 -4 1.4 2 3.016 1 5.383 -2 7.866 -2 9.032 2 10.066 -4</AnimationTrack>
+					</Add>
+					<Add ref="#Group_buoy_u64198" endtime="10066" importfile="../models/buoy/buoy.import" />
+					<Add ref="#wqw_u63401" endtime="10066" importfile="../models/buoy/buoy.import" />
+					<Add ref="#жќђиґЁ.2_u61438" name="жќђиґЁ.2" endtime="10066" referencedmaterial="#materials/жќђиґЁ.2_u35994" sourcepath="../materials/жќђиґЁ.2.materialdef" />
+					<Add ref="#qqw_u28600" endtime="10066" importfile="../models/buoy/buoy.import" />
+					<Add ref="#жќђиґЁ.2_u63617" name="жќђиґЁ.2" endtime="10066" referencedmaterial="#materials/жќђиґЁ.2_u35994" sourcepath="../materials/жќђиґЁ.2.materialdef" />
+					<Add ref="#q_u36092" endtime="10066" importfile="../models/buoy/buoy.import" />
+					<Add ref="#жќђиґЁ.2_u14707" name="жќђиґЁ.2" endtime="10066" referencedmaterial="#materials/жќђиґЁ.2_u35994" sourcepath="../materials/жќђиґЁ.2.materialdef" />
+					<Add ref="#ww_u2932" endtime="10066" importfile="../models/buoy/buoy.import" />
+					<Add ref="#зєЇз™Ѕ_u49016" name="зєЇз™Ѕ" endtime="10066" referencedmaterial="#materials/зєЇз™Ѕ_u25090" sourcepath="../materials/зєЇз™Ѕ.materialdef" />
+					<Add ref="#w_u9480" endtime="10066" importfile="../models/buoy/buoy.import" />
+					<Add ref="#зєЇз™Ѕ_u16372" name="зєЇз™Ѕ" endtime="10066" referencedmaterial="#materials/зєЇз™Ѕ_u25090" sourcepath="../materials/зєЇз™Ѕ.materialdef" />
+					<Add ref="#qqq_u47503" endtime="10066" importfile="../models/buoy/buoy.import" />
+					<Add ref="#зєЇз™Ѕ_u43182" name="зєЇз™Ѕ" endtime="10066" referencedmaterial="#materials/зєЇз™Ѕ_u25090" sourcepath="../materials/зєЇз™Ѕ.materialdef" />
+					<Add ref="#w.001_u18238" endtime="10066" importfile="../models/buoy/buoy.import" />
+					<Add ref="#зєЇз™Ѕ_u52302" name="зєЇз™Ѕ" endtime="10066" referencedmaterial="#materials/зєЇз™Ѕ_u25090" sourcepath="../materials/зєЇз™Ѕ.materialdef" />
+					<Add ref="#qq_u3654" endtime="10066" importfile="../models/buoy/buoy.import" />
+					<Add ref="#зєЇз™Ѕ_u11513" name="зєЇз™Ѕ" endtime="10066" referencedmaterial="#materials/зєЇз™Ѕ_u25090" sourcepath="../materials/зєЇз™Ѕ.materialdef" />
+					<Add ref="#q.001_u46551" endtime="10066" importfile="../models/buoy/buoy.import" />
+					<Add ref="#жќђиґЁ.2_u35385" name="жќђиґЁ.2" endtime="10066" referencedmaterial="#materials/жќђиґЁ.2_u35994" sourcepath="../materials/жќђиґЁ.2.materialdef" />
+					<Add ref="#water_u26113" name="water" endtime="10066" importfile="../models/water/water.import" position="351.54 -35.9208 0" rotation="0 338.425 0" scale="0.2 0.2 0.2" sourcepath="../models/water/water.import" />
+					<Add ref="#Water Export_u49587" endtime="10066" importfile="../models/water/water.import" />
+					<Add ref="#Water_Oppacity_2_u32520" name="Water_Oppacity_2" endtime="10066" referencedmaterial="#materials/Water_Oppacity_2_u34312" sourcepath="../materials/Water_Oppacity_2.materialdef" />
+					<Add ref="#Light2_u50819" name="Light2" endtime="10066" position="-70.1655 4.26406 0" rotation="36 -103 0" />
+				</State>
+			</State>
+		</Logic>
+	</Project>
+</UIP>

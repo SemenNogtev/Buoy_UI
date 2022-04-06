@@ -1,4 +1,6 @@
 import QtQuick 2.15
+import QtQuick.Controls 1.4
+import QtGraphicalEffects 1.13
 
 import "../Elements"
 
@@ -20,13 +22,33 @@ Item
             chartColor: "red"
         }
 
-        Rectangle
+
+        Custom3dStudio
         {
+            id: buoy_view
+
             width: parent.width / 3 - 15
             height: parent.height
 
-            radius: 15
+            presentation_path: "qrc:/3D/buoy/buoy.uia"
+
+            layer.enabled: true
+            layer.effect: OpacityMask
+            {
+                maskSource: Item
+                {
+                    width: buoy_view.width
+                    height: buoy_view.height
+
+                    Rectangle
+                    {
+                        radius: 15
+                        anchors.fill: parent
+                    }
+                }
+            }
         }
+
     }
 }
 

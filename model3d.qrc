@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>3D/buoy/maps/Water_Diffuse.png</file>
+        <file>3D/buoy/maps/Water_Oppacity_2.png</file>
+        <file>3D/buoy/materials/Water Export_Diffuse_Default.materialdef</file>
+        <file>3D/buoy/materials/Water_Diffuse.materialdef</file>
+        <file>3D/buoy/materials/Water_Oppacity_2.materialdef</file>
+        <file>3D/buoy/models/buoy/meshes/ењ†жџ±.mesh</file>
+        <file>3D/buoy/models/buoy/meshes/ењ†жџ±_1.mesh</file>
+        <file>3D/buoy/models/buoy/meshes/ењ†жџ±_2.mesh</file>
+        <file>3D/buoy/models/buoy/meshes/ењ†жџ±_3.mesh</file>
+        <file>3D/buoy/models/buoy/meshes/ењ†зЋЇ.mesh</file>
+        <file>3D/buoy/models/buoy/meshes/е№ійќў_1.mesh</file>
+        <file>3D/buoy/models/buoy/meshes/з©єз™Ѕ_1.mesh</file>
+        <file>3D/buoy/models/buoy/meshes/з«‹ж–№дЅ“.mesh</file>
+        <file>3D/buoy/models/buoy/meshes/з«‹ж–№дЅ“_1.mesh</file>
+        <file>3D/buoy/models/buoy/meshes/зђѓдЅ“.mesh</file>
+        <file>3D/buoy/models/buoy/buoy.import</file>
+        <file>3D/buoy/models/water/meshes/Water Export.mesh</file>
+        <file>3D/buoy/models/water/water.import</file>
+        <file>3D/buoy/presentations/buoy.uip</file>
+        <file>3D/buoy/buoy.uia</file>
+    </qresource>
+</RCC>

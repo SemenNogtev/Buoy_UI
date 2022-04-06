@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIP Version="1" >
+	<Project Revision="1" >
+		<Graph >
+			<Group id="__import__root__" >
+				<Group id="Group_buoy" name="Group_buoy" orientation="Right Handed" position="0 64.9782 0" rotation="-176.575 0.265689 175.569" rotationorder="XYZr" scale="1 1 1" >
+					<Model id="wqw" name="wqw" orientation="Right Handed" position="-9.53674e-07 20.1496 -3.99361" rotation="-160.619 8.65142e-06 180" rotationorder="XYZr" scale="1 1 1" sourcepath="meshes/wqw.mesh" >
+						<Material id="жќђиґЁ.2" name="жќђиґЁ.2" blendmode="Normal" diffuse="1 0.843333 0.53 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="100" />
+					</Model>
+					<Model id="qqw" name="qqw" orientation="Right Handed" position="-4.76837e-07 20.1077 3.99314" rotation="19.3807 5.69339e-08 2.29389e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="meshes/qqw.mesh" >
+						<Material id="жќђиґЁ.2_0001" name="жќђиґЁ.2" blendmode="Normal" diffuse="1 0.843333 0.53 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="100" />
+					</Model>
+					<Model id="q" name="q" orientation="Right Handed" position="-1.66893e-06 42.3346 6.7234e-05" rotation="1.06722e-07 1.2424e-15 4.26887e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="meshes/q.mesh" >
+						<Material id="жќђиґЁ.2_0002" name="жќђиґЁ.2" blendmode="Normal" diffuse="1 0.843333 0.53 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="100" />
+					</Model>
+					<Model id="ww" name="ww" orientation="Right Handed" position="-5.36442e-07 12.4663 6.7234e-05" rotation="1.06722e-07 1.2424e-15 4.26887e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="meshes/ww.mesh" >
+						<Material id="зєЇз™Ѕ" name="зєЇз™Ѕ" blendmode="Normal" diffuse="1 1 1 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="100" />
+					</Model>
+					<Model id="w" name="w" orientation="Right Handed" position="-5.96046e-07 -2.91924 6.72638e-05" rotation="1.06722e-07 1.2424e-15 4.26887e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="meshes/w.mesh" >
+						<Material id="зєЇз™Ѕ_0001" name="зєЇз™Ѕ" blendmode="Normal" diffuse="1 1 1 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="100" />
+					</Model>
+					<Model id="qqq" name="qqq" orientation="Right Handed" position="-6.51926e-07 -0.683308 6.72117e-05" rotation="1.06722e-07 1.2424e-15 4.26887e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="meshes/qqq.mesh" >
+						<Material id="зєЇз™Ѕ_0002" name="зєЇз™Ѕ" blendmode="Normal" diffuse="1 1 1 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="100" />
+					</Model>
+					<Model id="w.001" name="w.001" orientation="Right Handed" position="-2.23517e-07 -2.37575 6.7547e-05" rotation="1.06722e-07 1.2424e-15 4.26887e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="meshes/w.001.mesh" >
+						<Material id="зєЇз™Ѕ_0003" name="зєЇз™Ѕ" blendmode="Normal" diffuse="1 1 1 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="100" />
+					</Model>
+					<Model id="qq" name="qq" orientation="Right Handed" position="0 -41.4424 6.77109e-05" rotation="1.06722e-07 1.2424e-15 4.26887e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="meshes/qq.mesh" >
+						<Material id="зєЇз™Ѕ_0004" name="зєЇз™Ѕ" blendmode="Normal" diffuse="1 1 1 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="100" />
+					</Model>
+					<Model id="q.001" name="q.001" orientation="Right Handed" position="0 -47.6375 6.74725e-05" rotation="1.06722e-07 1.2424e-15 4.26887e-07" rotationorder="XYZr" scale="1 1 1" sourcepath="meshes/q.001.mesh" >
+						<Material id="жќђиґЁ.2_0003" name="жќђиґЁ.2" blendmode="Normal" diffuse="1 0.843333 0.53 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="100" />
+					</Model>
+				</Group>
+			</Group>
+		</Graph>
+		<Import SrcFile="../../buoy.fbx" ImageDir="maps" MeshDir="meshes" >
+			<Mesh >
+				<Source >w.001</Source>
+				<Dest >meshes/w.001.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >wqw</Source>
+				<Dest >meshes/wqw.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >qqw</Source>
+				<Dest >meshes/qqw.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >q</Source>
+				<Dest >meshes/q.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >q.001</Source>
+				<Dest >meshes/q.001.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >qqq</Source>
+				<Dest >meshes/qqq.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >qq</Source>
+				<Dest >meshes/qq.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >ww</Source>
+				<Dest >meshes/ww.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >w</Source>
+				<Dest >meshes/w.mesh</Dest>
+			</Mesh>
+		</Import>
+	</Project>
+</UIP>

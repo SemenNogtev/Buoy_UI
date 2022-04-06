@@ -6,6 +6,7 @@ import "../Elements"
 
 Item
 {
+    width: 500
     Row
     {
         anchors.fill: parent

@@ -2,11 +2,12 @@
 #include <QtWidgets/QApplication>
 #include <QtQuick/QQuickView>
 //switch when build portable version
-/////////////////#include <QtStudio3D/qstudio3dglobal.h>
+#include <QtStudio3D/qstudio3dglobal.h>
 //#include <qstudio3dglobal.h>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 //#include "appengine.h"
+
 
 int main(int argc, char *argv[])
 {
@@ -16,7 +17,7 @@ int main(int argc, char *argv[])
 
     QApplication app(argc, argv);
 
-    //QSurfaceFormat::setDefaultFormat(Q3DS::surfaceFormat());
+    QSurfaceFormat::setDefaultFormat(Q3DS::surfaceFormat());
 
     QQmlApplicationEngine engine;
 
