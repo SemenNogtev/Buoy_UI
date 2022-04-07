@@ -68,7 +68,7 @@
 				<Add ref="#Camera_u33795" position="0 52 -181" rotation="22 0 0" />
 				<Add ref="#Light_u14551" position="-19.662 0 0" />
 				<Add ref="#__Container_u28502" name="__Container" />
-				<Add ref="#materials/Water_Oppacity_2_u34312" name="materials/Water_Oppacity_2" diffusemap="#materials/Water_Oppacity_2_u34312_diffusemap_u10309" diffusemap2="#materials/Water_Oppacity_2_u34312_diffusemap2_u18760" importid="" />
+				<Add ref="#materials/Water_Oppacity_2_u34312" name="materials/Water_Oppacity_2" diffusemap="#materials/Water_Oppacity_2_u34312_diffusemap_u10309" diffusemap2="#materials/Water_Oppacity_2_u34312_diffusemap2_u18760" importid="" opacity="82" specularroughness="0.001" />
 				<Add ref="#materials/Water_Oppacity_2_u34312_diffusemap_u10309" name="diffusemap" importid="" sourcepath="../maps/Water_Diffuse.png" subpresentation="" />
 				<Add ref="#materials/Water_Oppacity_2_u34312_diffusemap2_u18760" name="diffusemap2" importid="" sourcepath="../maps/Water_Diffuse.png" subpresentation="" />
 				<Add ref="#materials/жќђиґЁ.2_u35994" name="materials/жќђиґЁ.2" diffuse="1 0.843333 0.53 1" importfile="../models/buoy/buoy.import" importid="жќђиґЁ.2" specularroughness="724.077" />
@@ -83,12 +83,12 @@
 						<AnimationTrack property="rotation.z" type="Linear" >0 0 10.066 0</AnimationTrack>
 					</Add>
 					<Add ref="#buoy_u62703" name="buoy" endtime="10066" importfile="../models/buoy/buoy.import" position="0 -71.126 -0.019" rotation="2 0 -4" sourcepath="../models/buoy/buoy.import" >
-						<AnimationTrack property="position.x" type="Linear" >0 0.000460986 1.433 0 3.016 0 5.416 0 7.866 0 9.032 0 10.066 0</AnimationTrack>
-						<AnimationTrack property="position.y" type="Linear" >0 -71.1259 1.433 -68.126 3.016 -70.126 5.416 -69.126 7.866 -67.126 9.032 -72.126 10.066 -71.126</AnimationTrack>
-						<AnimationTrack property="position.z" type="Linear" >0 -0.0188384 1.433 -0.019 3.016 -0.019 5.416 -0.019 7.866 -0.019 9.032 -0.019 10.066 -0.019</AnimationTrack>
-						<AnimationTrack property="rotation.x" type="Linear" >0 0 1.4 0 3.016 -6 5.383 -6 7.866 -13 9.032 2 10.066 2</AnimationTrack>
-						<AnimationTrack property="rotation.y" type="Linear" >0 0 1.4 0 3.016 0 5.383 0 7.866 0 9.032 0 10.066 0</AnimationTrack>
-						<AnimationTrack property="rotation.z" type="Linear" >0 -4 1.4 2 3.016 1 5.383 -2 7.866 -2 9.032 2 10.066 -4</AnimationTrack>
+						<AnimationTrack property="position.x" type="Linear" >0 0.000460986 1.433 0 3.016 0 5.416 0 7.866 0 8.898 0 10.066 0</AnimationTrack>
+						<AnimationTrack property="position.y" type="Linear" >0 -71.1259 1.433 -68.126 3.016 -70.126 5.416 -69.126 7.866 -67.126 8.898 -72.126 10.066 -71.126</AnimationTrack>
+						<AnimationTrack property="position.z" type="Linear" >0 -0.0188384 1.433 -0.019 3.016 -0.019 5.416 -0.019 7.866 -0.019 8.898 -0.019 10.066 -0.019</AnimationTrack>
+						<AnimationTrack property="rotation.x" type="Linear" >0 0 1.4 0 3.016 -6 5.383 -6 7.866 -13 10.066 2</AnimationTrack>
+						<AnimationTrack property="rotation.y" type="Linear" >0 0 1.4 0 3.016 0 5.383 0 7.866 0 10.066 0</AnimationTrack>
+						<AnimationTrack property="rotation.z" type="Linear" >0 -4 1.4 2 3.016 1 5.383 -2 7.866 -2 10.066 -4</AnimationTrack>
 					</Add>
 					<Add ref="#Group_buoy_u64198" endtime="10066" importfile="../models/buoy/buoy.import" />
 					<Add ref="#wqw_u63401" endtime="10066" importfile="../models/buoy/buoy.import" />

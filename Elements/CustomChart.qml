@@ -113,9 +113,12 @@ Item
                  }
              }
 
-             MouseArea{
+             MouseArea
+             {
                  anchors.fill: parent
-                 onClicked: {
+
+                 onClicked:
+                 {
                      valueAxisX.max += 1
 
                      for (var i = 0; i <= 1; i++)
@@ -123,15 +126,22 @@ Item
                      seriesY.append(i+valueAxisX.max-1, Math.random() + Math.random());
 
                  }
-                 }
-             }
+            }
+        }
 
-//               LineSeries {
-//                            axisX: ValueAxis{id : gg;   min: 0; max: 100 ;  visible: true ;color :"#00ffffff";gridLineColor: "black";labelsColor :"black";/*labelsVisible:false; gridVisible: false*/ }
-//                            axisY: ValueAxis{id: ggg;  min: 0; max: 100 ;  visible: true ;gridLineColor: "black";color :"black";/*labelsVisible:false; gridVisible: false*/}
-//                           }
+    }
 
-}
+    function add(height)
+    {
+        valueAxisX.max += 1;
+
+        if (height >= valueAxisY.max)
+        {
+            valueAxisY.max = height += 1;
+        }
+
+        seriesY.append(valueAxisX.max-1, height);
+    }
 }
 
 /*##^##

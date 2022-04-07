@@ -6,6 +6,7 @@ import "../Elements"
 
 Item
 {
+
     Row
     {
         id: column
@@ -16,12 +17,12 @@ Item
 
         CustomChart
         {
+            id: heightChart
             width: parent.width * 2 / 3 - 15
             height: parent.height
 
             chartColor: "red"
         }
-
 
         Custom3dStudio
         {
@@ -48,7 +49,11 @@ Item
                 }
             }
         }
+    }
 
+    function add_value(value)
+    {
+        heightChart.add(value)
     }
 }
 

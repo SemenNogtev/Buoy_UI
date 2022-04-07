@@ -5,8 +5,8 @@
 	<Property name="diffusemap"><![CDATA[./maps/Water_Diffuse.png]]></Property>
 	<Property name="diffusemap2"><![CDATA[./maps/Water_Diffuse.png]]></Property>
 	<Property name="specularamount">0</Property>
-	<Property name="specularroughness">0</Property>
-	<Property name="opacity">100</Property>
+	<Property name="specularroughness">0.001</Property>
+	<Property name="opacity">82</Property>
 	<Property name="emissivecolor">1 1 1 1</Property>
 	<Property name="emissivepower">0</Property>
 	<Property name="bumpamount">0.5</Property>

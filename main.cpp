@@ -6,7 +6,7 @@
 //#include <qstudio3dglobal.h>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-//#include "appengine.h"
+#include "appengine.h"
 
 
 int main(int argc, char *argv[])
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    //appEngine appCore;
+    appEngine appCore;
 
     const QUrl url(QStringLiteral("qrc:/main.qml"));
 
@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
             QCoreApplication::exit(-1);
     }, Qt::QueuedConnection);
 
-    //engine.rootContext()->setContextProperty("app", &appCore);
+    engine.rootContext()->setContextProperty("app", &appCore);
 
     engine.load(url);
 

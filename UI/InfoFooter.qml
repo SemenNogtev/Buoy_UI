@@ -6,7 +6,12 @@ import "../Elements"
 
 Item
 {
-    width: 500
+    id: footer
+
+    property double humidity : 10.0;
+    property double water_temperature :  25;
+    property double air_temperature : 25;
+
     Row
     {
         anchors.fill: parent
@@ -47,7 +52,7 @@ Item
                         element_color: "#20DD92"
 
                         img_path: "qrc:/buoy_icons/humidity.png"
-                        element_value: "10"
+                        element_value: footer.humidity //default value "10"
                         type_of_measure: "%"
                     }
 
@@ -82,7 +87,7 @@ Item
                         element_color: "#FE6876"
 
                         img_path: "qrc:/buoy_icons/wind.png"
-                        element_value: "25"
+                        element_value: footer.water_temperature
                         type_of_measure: "°C"
                     }
 
@@ -117,7 +122,7 @@ Item
                         element_color: "#0E82EE"
 
                         img_path: "qrc:/buoy_icons/sea.png"
-                        element_value: "25"
+                        element_value: footer.air_temperature
                         type_of_measure: "°C"
                     }
 
