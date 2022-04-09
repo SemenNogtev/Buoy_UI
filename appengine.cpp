@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-#include<QDebug>
+//#include<QDebug>
 
 appEngine::appEngine(QObject *parent) : QObject(parent)
 {
@@ -32,12 +32,12 @@ void appEngine::readData()
     {
         return;
     }
-
+//qDebug() << port_name;
     while (serialPort.waitForReadyRead(10))
     {
         message = serialPort.readLine();
     }
-qDebug() << message;
+//qDebug() << message;
     message.replace(",", " ");
 
     std::string msg = message.toStdString();
